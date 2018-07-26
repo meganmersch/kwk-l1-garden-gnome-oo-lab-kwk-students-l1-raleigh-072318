@@ -1,15 +1,15 @@
 # Code your instances here
 class GardenGnome
   
-  def name = (name)
+  def name ; (name)
     @name = name
   end
   
-  def age = (age)
+  def age ; (age)
     @age = age
   end
   
-  def gluten_allergy= (gluten_allergy)
+  def gluten_allergy = (gluten_allergy)
     @gluten_allergy = gluten_allergy
   end
   
