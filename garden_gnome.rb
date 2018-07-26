@@ -11,15 +11,30 @@ class GardenGnome
   def age=(age)
     @age = age
   end
+  def name
+    @name
+  end
   
   def gluten_allergy=(gluten_allergy)
     @gluten_allergy = gluten_allergy
+  end
+  def gluten_allergy
+    @gluten_allergy
   end
   
   def initialize(personality = "evil", hat_color = "red")
     @personality = personality
     @hat_color = hat_color
   end
+  
+  def personality
+    @personality
+  end
+  
+  def hat_color
+    @hat_color
+  end
+  
 
   def gnaw
     return "Gnawing on a tree!!!"
