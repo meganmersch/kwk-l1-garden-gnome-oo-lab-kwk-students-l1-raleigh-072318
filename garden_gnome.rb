@@ -44,8 +44,8 @@ class GardenGnome
     return "GNARLY!!!"
   end
   
-  def introduce_self(name, age)
-    "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
+  def introduce_self
+    "Hello humans, my name is #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
   end
 end
 
