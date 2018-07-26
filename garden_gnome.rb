@@ -31,7 +31,7 @@ class GardenGnome
   end
 end
 
-
+GardenGnome
     
     
     
