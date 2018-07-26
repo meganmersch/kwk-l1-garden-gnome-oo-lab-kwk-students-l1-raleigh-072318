@@ -32,6 +32,7 @@ class GardenGnome
 end
 
 gnome1 = GardenGnome.new 
+gnome2= GardenGnome.new ()
     
     
     
