@@ -17,17 +17,22 @@ class GardenGnome
     @personality = personality
     @hat_color = hat_color
 
-  def gnaw ; gnaw(gnaw)
-    @gnaw = "Gnawing on a tree!!!"
+  def gnaw
+    return "Gnawing on a tree!!!"
   end
   
-  def shout = shout(shout)
-    @shout = "GNARLY!!!"
+  def shout
+    return "GNARLY!!!"
   end
   
-  def introduce_self = introduce_self(introduce_self)
-    @introduce_self = "Hello humans, my name is #{name}, I am #{age}"
+  def introduce_self(name, age)
+    "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
   end
+end
+    
+    
+    
+
   
   
   
