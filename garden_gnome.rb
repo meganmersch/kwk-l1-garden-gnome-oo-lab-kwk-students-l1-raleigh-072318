@@ -30,7 +30,10 @@ class GardenGnome
   end
   
   def introduce_self = introduce_self(introduce_self)
-    @introduce_self = "Hello humans, my name is #{name} and I am "
+    @introduce_self = "Hello humans, my name is #{name}, I am #{age}"
+  end
+  
+  
   
   
   
